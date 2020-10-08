@@ -49,7 +49,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     </head>
  
 
-<body  class="class">
+<body  class="class" id="main">
 
     <div  class="para" id="mains" style="max-width: 1300px; margin: auto;"    >
 
@@ -60,9 +60,12 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_CXxysN.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px; margin-left: 34%;"  loop  autoplay></lottie-player>
 
 <div>
-    <p style="margin-top: -53px;margin-left: 69px;font-size: 20px;">STAY HOME...STAY SAFE...BE POSITIVE     <button onclick="func()">X</button></p>
+    <p style="margin-top: -53px;margin-left: 69px;font-size: 20px;">STAY HOME...STAY SAFE...BE POSITIVE </p>
 </div>
-</div>    
+</div>
+<button onclick="theme()" style="text-align: right;">theme</button>
+
+    
 
                 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
         <lottie-player src="https://assets3.lottiefiles.com/packages/lf20_bXRG9q.json"  background="transparent"  speed="1" style=" float: right; width: 500px;height: 500px;margin-top:50px; "   loop  autoplay></lottie-player>
@@ -123,11 +126,12 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     
             </body>
 <script>
-    function func(){
-    var x = document.getElementById("hidden");
-    (x.style.display="none")
+    function theme(){
+        var theme = document.getElementById("main");
+        (theme.style.backgroundColor = "white")
     }
 </script>
+
         </html>
 
 
