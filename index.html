@@ -23,9 +23,7 @@ color: white;
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
-.classkk{
-    background-color: white;
-}
+
   .scales:hover{
  transform: scale(1.4);
  transition-duration: 0.4s;
@@ -56,13 +54,13 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     <div  class="para" id="mains" style="max-width: 1300px; margin: auto;"    >
 
           
-<div style="text-align: center;"  >
+<div style="text-align: center;" id="hidden" >
       
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_CXxysN.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px; margin-left: 34%;"  loop  autoplay></lottie-player>
 
-<div class="hidden">
-    <p style="margin-top: -53px;margin-left: 69px;font-size: 20px;">STAY HOME...STAY SAFE...BE POSITIVE</p>
+<div>
+    <p style="margin-top: -53px;margin-left: 69px;font-size: 20px;">STAY HOME...STAY SAFE...BE POSITIVE     <button onclick="func()">X</button></p>
 </div>
 </div>    
 
@@ -124,7 +122,10 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
 </div>
     
             </body>
-
+<script>
+    var x = document.getElementById("hidden");
+    (x.style.display="none")
+</script>
         </html>
 
 
