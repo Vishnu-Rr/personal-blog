@@ -15,6 +15,10 @@
 
 
         }
+        .center{
+            background: white;
+            color: black;
+        }
       
 .class{
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(21,14,92,1) 54%, rgba(34,76,182,1) 86%, rgba(17,183,179,1) 96%);
@@ -53,7 +57,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
     <div  class="para" id="mains" style="max-width: 1300px; margin: auto;"    >
 
           
-<div style="text-align: center;" id="hidden" >
+<div style="text-align: center;" >
       
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
 <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_CXxysN.json"  background="transparent"  speed="1"  style="width: 80px; height: 80px; margin-left: 34%;"  loop  autoplay></lottie-player>
@@ -126,7 +130,7 @@ font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans
       
 <script>
     function theme(){
-      document.body.style.backgroundColor="white";
+    document.body.classList.add("center")
     }
 </script>
 </body>
